@@ -236,7 +236,8 @@ fn test_pyo3_new_gate_definition() {
             .unwrap()
             .extract::<GateDefinitionWrapper>(py)
             .unwrap()
-            .into_py(py);
+            .unbind()
+            .into_any();
 
         let comparison_copy =
             bool::extract_bound(&new_op.call_method1("__eq__", (copy_param,)).unwrap()).unwrap();

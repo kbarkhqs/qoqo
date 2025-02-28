@@ -1130,7 +1130,7 @@ version = "1.18.1"
 dependencies = [
  "proc-macro2",
  "quote",
- "struqture 1.11.1",
+ "struqture 1.11.2",
  "syn",
 ]
 
@@ -1175,7 +1175,7 @@ checksum = "3779b94aeb87e8bd4e834cee3650289ee9e0d5677f976ecdb6d219e5f4f6cd94"
 dependencies = [
  "rand_chacha",
  "rand_core",
- "zerocopy 0.8.20",
+ "zerocopy 0.8.21",
 ]
 
 [[package]]
@@ -1195,7 +1195,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a509b1a2ffbe92afab0e55c8fd99dea1c280e8171bd2d88682bb20bc41cbc2c"
 dependencies = [
  "getrandom 0.3.1",
- "zerocopy 0.8.20",
+ "zerocopy 0.8.21",
 ]
 
 [[package]]
@@ -1548,9 +1548,9 @@ checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
 
 [[package]]
 name = "struqture"
-version = "1.11.1"
+version = "1.11.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49a8fd4c8e4b60ea13a605acc0d0921e7cc2df2a9740cd909adbd3656613a267"
+checksum = "7728ab9fbee1ed70763d6afd344729eb2532271854cd18101146ef4dff7fa75e"
 dependencies = [
  "itertools",
  "ndarray",
@@ -1576,7 +1576,7 @@ dependencies = [
  "qoqo_calculator",
  "schemars",
  "serde",
- "struqture 1.11.1",
+ "struqture 1.11.2",
  "test-case",
  "thiserror",
  "tinyvec",
@@ -1600,7 +1600,7 @@ dependencies = [
  "regex",
  "schemars",
  "serde_json",
- "struqture 1.11.1",
+ "struqture 1.11.2",
  "struqture 2.0.0-alpha.10",
  "struqture-py-macros",
  "syn",
@@ -1609,9 +1609,9 @@ dependencies = [
 
 [[package]]
 name = "struqture-py-macros"
-version = "2.0.0-alpha.10"
+version = "2.0.0-alpha.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cb041918bfdb2d2de8071aae68083e7dcc22a82d9df7d8a05da3112d52b37bfb"
+checksum = "fa85dfc255149a95c1ec70d3b89cdac1bbbfd6b5fa33d3432818aef5b65ae413"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1814,9 +1814,9 @@ checksum = "1dccffe3ce07af9386bfd29e80c0ab1a8205a2fc34e4bcd40364df902cfa8f3f"
 
 [[package]]
 name = "typetag"
-version = "0.2.19"
+version = "0.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "044fc3365ddd307c297fe0fe7b2e70588cdab4d0f62dc52055ca0d11b174cf0e"
+checksum = "73f22b40dd7bfe8c14230cf9702081366421890435b2d625fa92b4acc4c3de6f"
 dependencies = [
  "erased-serde",
  "inventory",
@@ -1827,9 +1827,9 @@ dependencies = [
 
 [[package]]
 name = "typetag-impl"
-version = "0.2.19"
+version = "0.2.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d9d30226ac9cbd2d1ff775f74e8febdab985dab14fb14aa2582c29a92d5555dc"
+checksum = "35f5380909ffc31b4de4f4bdf96b877175a016aa2ca98cee39fcfd8c4d53d952"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2175,11 +2175,11 @@ dependencies = [
 
 [[package]]
 name = "zerocopy"
-version = "0.8.20"
+version = "0.8.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dde3bb8c68a8f3f1ed4ac9221aad6b10cece3e60a8e2ea54a6a2dec806d0084c"
+checksum = "dcf01143b2dd5d134f11f545cf9f1431b13b749695cb33bcce051e7568f99478"
 dependencies = [
- "zerocopy-derive 0.8.20",
+ "zerocopy-derive 0.8.21",
 ]
 
 [[package]]
@@ -2195,9 +2195,9 @@ dependencies = [
 
 [[package]]
 name = "zerocopy-derive"
-version = "0.8.20"
+version = "0.8.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eea57037071898bf96a6da35fd626f4f27e9cee3ead2a6c703cf09d472b2e700"
+checksum = "712c8386f4f4299382c9abee219bee7084f78fb939d88b6840fcc1320d5f6da2"
 dependencies = [
  "proc-macro2",
  "quote",
